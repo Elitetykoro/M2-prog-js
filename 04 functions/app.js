@@ -1,26 +1,15 @@
-function argumentsAreHandy(shoutout)
+function result(u,h,l,y)
 {
-    console.log("do you want shoutout?");
-    console.log(shoutout);
+    y= Math.log(l) + h + Math.pow(u,2);
+    return y
 }
-argumentsAreHandy("shoutout");
-argumentsAreHandy("ok");
-argumentsAreHandy("zal k doen");
-
-/*function globalFunction()
-{
-    console.log("Global");
-    console.log("Overal ding");
-}
-globalFunction();
-globalFunction();
-globalFunction();*/
+let y1=result(9,8,15);
+console.log(y1);
 class App
 {
     runApplication()
     {
         console.log("isg");
-        //globalFunction();
     }
 }
 let app = new App();
