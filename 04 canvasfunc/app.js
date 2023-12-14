@@ -149,7 +149,7 @@ class App
         g.stroke();
         g.fill()
         }
-        
-} 
+    }
+
 let app = new App(); 
 app.runApplication(); 
